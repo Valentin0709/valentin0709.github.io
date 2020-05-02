@@ -30,7 +30,7 @@ Does this sound familiar? These are the same rules we use for matching parenthes
 
 So, if we know that our RNA molecule contains 5 base pairs, then then number of ways in which these bonds can exist relative to one another is the same as the number of valid parentheses sequences made up of 5 parentheses pairs.
 
-<img src="Images/rna_animation.gif" />
+<img src="/Images/rna_animation.gif" />
 
 
 
