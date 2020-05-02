@@ -13,16 +13,16 @@ Researchers are trying to employ the geometry of these versatile molecules and d
     margin:0;
     padding:0;
     vertical-align: top;">
-  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR8q3x_pFvnepIe7b7C_YeHbbHJe4n1KXKPIgldpccJY1hw3Z8z" alt="missing" height="100%" width="100%" />
-  <span>Peppermint Thins</span>
+  <img src="/Images/rna1.jpg" height="100%" width="100%" />
+  <span>RNA with loops</span>
   </figure >
    <figure  style="float:right;
     margin:0;
     padding:0;
     width:48%;
     vertical-align: top;">
-  <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTdNkStSLeNk_3eAN6MV7asaOQapylITCIxs1JDOEblIc8V4eqy" alt="missing" height="100%" width="100%" />
-  <span>Ritz Crackers</span>
+  <img src="/Images/rna4.jpg" height="100%" width="100%" />
+  <span>RNA with double-stranded region</span>
    </figure >
 <div style="clear:both;"></div>
 </div>
