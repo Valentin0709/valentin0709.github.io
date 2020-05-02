@@ -48,7 +48,7 @@ From this observation we can deduce the following two rules which are fulfilled 
 Does this sound familiar? These are the same rules we use for matching parentheses in an algebraic equation: the number of open parentheses must be equal to the number of close parentheses and you can’t close more parentheses that you’ve already opened. 
 
 <p style="text-align: center; display:block;">
-  $((maths + maths) \times (more \; maths)) ^ 2 = result$
+  $$((maths + maths) \times (more \; maths)) ^ 2 = result$$
 </p>
 
 So, if we know that our RNA molecule contains 5 base pairs, then then number of ways in which these bonds can exist relative to one another is the same as the number of valid parentheses sequences made up of 5 parentheses pairs.
@@ -77,27 +77,27 @@ One way to approach this problem is to work out first the total numbers of possi
 Since we are searching for paths of minimum length between the two corners, the first comment we can make is that such paths must have length 10 and are made up of 5 steps to east and 5 steps to north. Our first task is to calculate in how many unique ways we can arrange a sequence of these 10 alternating moves. To solve this, imagine that we begin with a sequence consisting of 10 steps to north.
 
 <p style="text-align: center; display:block;">
-  $north \; north \; north \; north \; north \; north \; north \; north \; north \; north$
+  $$north \; north \; north \; north \; north \; north \; north \; north \; north \; north$$
 </p>
 
 Now we can change 5 of those norths into easts. We have 10 choices for picking the first north to convert. And 9 for the second, 8 for the third, 7 for the fourth and 6 for the fifth. Overall, there are $10 \times 9 \times 8 \times 7 \times 6$ paths we can construct using this method. 
 
 <p style="text-align: center; display:block;">
- $swapping \; the \; norths \; on \; positions \; 1, 5, 7, 8, and \; 10 \; for \; easts \; results \; in \; the \; following \; path \\
-  east \; north \; north \; north \; east \; north \; east \; east \; north \; east
+ $$swapping \; the \; norths \; on \; positions \; 1, 5, 7, 8, and \; 10 \; for \; easts \; results \; in \; the \; following \; path \\
+  east \; north \; north \; north \; east \; north \; east \; east \; north \; east $$
 </p>
 
-However, we counted some paths multiple times – converting positions 1, 5, 7, 8 and 10  generates the same sequence of steps as converting postions 5, 1, 10, 7, 8. There are $5 \times 4 \times 3 \times 2 \times 1$ ways to rearrange the order in which we make our picks, so the final number of valid paths is:
+However, we counted some paths multiple times – converting positions 1, 5, 7, 8 and 10  generates the same sequence of steps as converting postions 5, 1, 10, 7, 8. There are $$5 \times 4 \times 3 \times 2 \times 1$$ ways to rearrange the order in which we make our picks, so the final number of valid paths is:
 
 <p style="text-align: center; display:block;">
-  $(10 \times 9 \times 8 \times 7 \times 6) / (5 \times 4\times 3 \times 2 \times 1) = 42$
+  $$(10 \times 9 \times 8 \times 7 \times 6) / (5 \times 4\times 3 \times 2 \times 1) = 42$$
 </p>
 
-Using the factorial notations, $a! = 1 \times 2 \times 3 \times \; … \; \times a$, we can rewrite this a $$\frac{10!}{5! \times !5}$$. These are formally referred to as 5-combinations of 10 or $
+Using the factorial notations, $$a! = 1 \times 2 \times 3 \times \; … \; \times a$$, we can rewrite this a $$\frac{10!}{5! \times !5}$$. These are formally referred to as 5-combinations of 10 or $$
     \smash{\begin{pmatrix}
     10  \\
     5 \\
-    \end{pmatrix}}$
+    \end{pmatrix}}$$
 
 <figure style="text-align: center; display:block;">
   <img src="/Images/rabbit_animation.gif" width="75%" />   
