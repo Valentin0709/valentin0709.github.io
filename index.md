@@ -13,7 +13,7 @@ Researchers are trying to employ the geometry of these versatile molecules and d
     margin:0;
     padding:0;
     vertical-align: top;
-    style="text-align: center;">
+    text-align: center;">
   <img src="/Images/rna1.jpg" height="100%" width="100%" />
   <span>folded RNA with nested loops</span>
   </figure >
@@ -22,7 +22,7 @@ Researchers are trying to employ the geometry of these versatile molecules and d
     padding:0;
     width:48%;
     vertical-align: top;
-    style="text-align: center;">
+    text-align: center;">
   <img src="/Images/rna4.jpg" height="100%" width="100%" />
   <span>RNA molecule with a double-stranded region</span>
    </figure >
