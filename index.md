@@ -9,12 +9,12 @@ Researchers are trying to employ the geometry of these versatile molecules and d
 
 <table style="border: 1px solid transparent">
   <tr>
-    <td>First Screen Page</td>
-     <td>Holiday Mention</td>
-  </tr>
-  <tr>
     <td valign="top"><img src="/Images/rna1.jpg"></td>
     <td valign="top"><img src="/Images/rna4.jpg"></td>
+  </tr>
+  <tr>
+     <td style="text-align: center;">First Screen Page</td>
+     <td style="text-align: center;">Holiday Mention</td>
   </tr>
  </table>
 
