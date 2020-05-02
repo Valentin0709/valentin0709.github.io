@@ -83,7 +83,7 @@ Since we are searching for paths of minimum length between the two corners, the 
 Now we can change 5 of those norths into easts. We have 10 choices for picking the first north to convert. And 9 for the second, 8 for the third, 7 for the fourth and 6 for the fifth. Overall, there are $$10 \times 9 \times 8 \times 7 \times 6$$ paths we can construct using this method. 
 
 <p style="text-align: center; display:block;">
- $$swapping the norths on positions 1, 5, 7, 8, and 10 for easts results in the following path$$
+ $$swapping \; the \; norths \; on \; positions \; 1, 5, 7, 8, and \; 10 \; for \; easts \; results \; in \; the \; following \; path$$
   $$east \; north \; north \; north \; east \; north \; east \; east \; north \; east$$
 </p>
 
@@ -92,6 +92,13 @@ However, we counted some paths multiple times – converting positions 1, 5, 7, 
 <p style="text-align: center; display:block;">
   $$(10 \times 9 \times 8 \times 7 \times 6) / (5 \times 4\times 3 \times 2 \times 1) = 42$$
 </p>
+
+Using the factorial notations, $$a! = 1 /times 2 /times 3 /times /; … /; /times a$$, we can rewrite this a 10! / (5! x 5!). $$/frac{10!}{5! /times !5}$$ These are formally referred to as 5-combinations of 10 or $$
+    \begin{pmatrix}
+    n  \\
+    k \\
+    \end{pmatrix}
+$$
 
 <figure style="text-align: center; display:block;">
   <img src="/Images/rabbit_animation.gif" width="75%" />   
