@@ -8,8 +8,8 @@ At a chemical level, RNA is a continuous chain of 4 alternating blocks: adenine 
 Researchers are trying to employ the geometry of these versatile molecules and develop short RNAs which can bind to particular targets inside the body. These so-called aptamers could be used to specifically deliver drugs only to affected tissues and thus decrease the adverse effects of treatments such as chemotherapy.
 
 <p style="text-align: center; display:block;">
-   <img src="Images/rna1.jpg" alt="RNA Structure" width="45%" style="display:inline-block; margin-right: auto; margin-left: auto;"/>       
-   <img src="Images/rna2.jpg" alt="RNA Structure" width="45%" style="display:inline-block; margin-right: auto; margin-left: auto;"/>        
+   <img src="/Images/rna1.jpg" alt="RNA Structure" width="45%" style="display:inline-block; margin-right: auto; margin-left: auto;"/>   
+   <img src="/Images/rna2.jpg" alt="RNA Structure" width="45%" style="display:inline-block; margin-right: auto; margin-left: auto;"/>   
 </p>
 
 ### The folding problem
@@ -28,9 +28,14 @@ From this observation we can deduce the following two rules which are fulfilled 
 
 Does this sound familiar? These are the same rules we use for matching parentheses in an algebraic equation: the number of open parentheses must be equal to the number of close parentheses and you can’t close more parentheses that you’ve already opened. 
 
+$$a^2 + b^2 = c^2$$ 
+
 So, if we know that our RNA molecule contains 5 base pairs, then then number of ways in which these bonds can exist relative to one another is the same as the number of valid parentheses sequences made up of 5 parentheses pairs.
 
-<img src="/Images/rna_animation.gif" />
+<p style="text-align: center; display:block;">
+   <img src="/Images/rna_animation.gif" width="75%" style="display:inline-block; margin-right: auto; margin-left: auto;"/>     
+</p>
+
 
 
 
