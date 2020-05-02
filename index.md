@@ -7,7 +7,7 @@ At a chemical level, RNA is a continuous chain of 4 alternating blocks: adenine 
 
 Researchers are trying to employ the geometry of these versatile molecules and develop short RNAs which can bind to particular targets inside the body. These so-called aptamers could be used to specifically deliver drugs only to affected tissues and thus decrease the adverse effects of treatments such as chemotherapy.
 
-<p style = "display: block;">
+<div style = "display: block; float: left;">
 <figure style = "display: inline-block;">
     <img src="/Images/rna1.jpg" width = "45%"/>
     <figcaption style="text-alligm: center;">Loops</figcaption>
@@ -16,7 +16,7 @@ Researchers are trying to employ the geometry of these versatile molecules and d
     <img src="/Images/rna4.jpg" width = "45%"/>
     <figcaption style="text-alligm: center;">Caption goes here</figcaption>
 </figure>
-</p>
+</div>
 
 ### The folding problem
 Given a sample of all possible RNA aptamers made up of 30 nucleotides, how many folding patterns do we expect to find? To simply things, we are only looking at the shape of the molecule, so if two different sequences of nucleotides give the same type of folding, they are counted together. We’ll also keep in mind that the RNA backbone doesn’t cross itself during folding, so we can model it as a collection of points joined by non-intersecting edges.
