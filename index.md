@@ -9,10 +9,10 @@ Researchers are trying to employ the geometry of these versatile molecules and d
 
 <div style="text-align: center; display: block;">
   <figure style="display: inline-block; vertical-align: top; margin: 0;">
-    <img width="10%" src="/Images/rna1.jpg" />
+    <img style="display: inline-block;" width="10%" src="/Images/rna1.jpg" />
   </figure>
    <figure style="display: inline-block; vertical-align: top; margin: 0;">
-    <img width="10%" src="/Images/rna4.jpg" />
+    <img style="display: inline-block;" width="10%" src="/Images/rna4.jpg" />
   </figure>
 </div>
 
