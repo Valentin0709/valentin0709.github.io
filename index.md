@@ -38,8 +38,10 @@ So, if we know that our RNA molecule contains 5 base pairs, then then number of 
    <img src="/Images/rna_animation.gif" width="75%" style="display:inline-block; margin-right: auto; margin-left: auto;"/>     
 </p>
 
-<img src="/Images/rna_diagram.png" width="100%" style="display:inline-block; margin-right: auto; margin-left: auto;"/>     
-
+<figure>
+  <img src="/Images/rna_diagram.png" width="100%" style="display:inline-block; margin-right: auto; margin-left: auto;"/>   
+  <figcaption>Converting an unfolded RNA strand into an equivalent paranthesis sequence</figcaption>
+</figure>
 
 
 
