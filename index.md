@@ -17,9 +17,9 @@ Given a sample of all possible RNA aptamers made up of 30 nucleotides, how many 
 ### Matching parentheses 
 Let’s begin by “reading” an RNA strand from one end to another. As we encounter a couple of hydrogen bonds along the way, we see that the nucleotides can be classified into 3 categories:
 
-•	fillers – they keep to themselves and don’t interact with other nucleotides 
-•	heads – the first nucleotide we reach when we encounter a new base pair
-•	tails – the complementary nucleotide to one of the heads met earlier
+* fillers – they keep to themselves and don’t interact with other nucleotides 
+* heads – the first nucleotide we reach when we encounter a new base pair
+* tails – the complementary nucleotide to one of the heads met earlier
 
 Of course, this relative to the way we look at the molecule, if we were to read the strand from the opposite end, all heads and tails would switch places. 
 
