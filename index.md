@@ -10,11 +10,11 @@ Researchers are trying to employ the geometry of these versatile molecules and d
 <div style = "display: block; float: left;">
 <figure style = "display: inline-block;">
     <img src="/Images/rna1.jpg" width = "45%"/>
-    <figcaption style="text-alligm: center;">Loops</figcaption>
+    <figcaption style="text-allign: center;">Loops</figcaption>
 </figure>
 <figure style = "display: inline-block;">
     <img src="/Images/rna4.jpg" width = "45%"/>
-    <figcaption style="text-alligm: center;">Caption goes here</figcaption>
+    <figcaption style="text-allign: center;">Double</figcaption>
 </figure>
 </div>
 
