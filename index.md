@@ -9,12 +9,12 @@ Researchers are trying to employ the geometry of these versatile molecules and d
 
 <figure style="text-align: center; display:block;">
   <img src="/Images/rna1.jpg" width="45%"/>   
-  <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Converting an unfolded RNA strand into an equivalent paranthesis sequence</figcaption>
+  <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Loops</figcaption>
 </figure>
 
 <figure style="text-align: center; display:block;">
   <img src="/Images/rna4.jpg" width="45%"/>   
-  <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Converting an unfolded RNA strand into an equivalent paranthesis sequence</figcaption>
+  <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Double-stranded region</figcaption>
 </figure>
 
 ### The folding problem
