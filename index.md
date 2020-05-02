@@ -38,7 +38,7 @@ So, if we know that our RNA molecule contains 5 base pairs, then then number of 
    <img src="/Images/rna_animation.gif" width="75%" style="display:inline-block; margin-right: auto; margin-left: auto;"/>     
 </p>
 
-<img src="/Images/rna_diagram.gif" width="100%" style="display:inline-block; margin-right: auto; margin-left: auto;"/>     
+<img src="/Images/rna_diagram.png" width="100%" style="display:inline-block; margin-right: auto; margin-left: auto;"/>     
 
 
 
