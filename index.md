@@ -16,7 +16,7 @@ Researchers are trying to employ the geometry of these versatile molecules and d
     vertical-align: top;
     text-align: center;">
   <img src="/Images/rna1.jpg" height="100%" width="100%" />
-  <span>folded RNA with nested loops</span>
+  <span>Folded RNA with nested loops</span>
   </figure >
    <figure  
     style="float:right;
@@ -53,13 +53,14 @@ Does this sound familiar? These are the same rules we use for matching parenthes
 
 So, if we know that our RNA molecule contains 5 base pairs, then then number of ways in which these bonds can exist relative to one another is the same as the number of valid parentheses sequences made up of 5 parentheses pairs.
 
-<p style="text-align: center; display:block;">
-   <img src="/Images/rna_animation.gif" width="75%" style="display:inline-block; margin-right: auto; margin-left: auto;"/>     
-</p>
+<figure style="text-align: center; display:block;">
+  <img src="/Images/rna_animation.gif" width="75%" />   
+  <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Converting the RNA strand into an equivalent paranthesis sequence</figcaption>
+</figure>
 
 <figure style="text-align: center; display:block;">
   <img src="/Images/rna_diagram.png" width="100%"/>   
-  <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Converting an unfolded RNA strand into an equivalent paranthesis sequence</figcaption>
+  <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Unfolded RNA molecule</figcaption>
 </figure>
 
 
