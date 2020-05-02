@@ -29,7 +29,7 @@ From this observation we can deduce the following two rules which are fulfilled 
 Does this sound familiar? These are the same rules we use for matching parentheses in an algebraic equation: the number of open parentheses must be equal to the number of close parentheses and you can’t close more parentheses that you’ve already opened. 
 
 <p style="text-align: center; display:block;">
-  $$(({maths} + {maths}) * {mathematics}) ^ 2 = {more maths}$$
+  $$((\text{maths} + \text{maths) * \text{more maths}) ^ 2 = \text{result}$$
 </p>
 
 So, if we know that our RNA molecule contains 5 base pairs, then then number of ways in which these bonds can exist relative to one another is the same as the number of valid parentheses sequences made up of 5 parentheses pairs.
