@@ -14,7 +14,7 @@ Researchers are trying to employ the geometry of these versatile molecules and d
    </figure>
    
    <figure style="text-align: center; display:block;">
-     <img src="/Images/rna4.jpg" width="100%"/>   
+     <img src="/Images/rna4.jpg" alt="RNA Structure" width="45%" style="display:inline-block; margin-right: auto; margin-left: auto;"/> 
      <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">RNA structure with a double-stranded  region</figcaption>
    </figure>
 </p>
