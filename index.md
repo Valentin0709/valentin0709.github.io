@@ -8,14 +8,14 @@ At a chemical level, RNA is a continuous chain of 4 alternating blocks: adenine 
 Researchers are trying to employ the geometry of these versatile molecules and develop short RNAs which can bind to particular targets inside the body. These so-called aptamers could be used to specifically deliver drugs only to affected tissues and thus decrease the adverse effects of treatments such as chemotherapy.
 
 <p style="text-align: center; display:block;">
-  <figure style="text-align: center; display:inline-block;">
-    <img src="/Images/rna1.jpg" width="45%"/>   
-    <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Loops</figcaption>
+  <figure width="45%" style="text-align: center; display:inline-block; margin-right: auto; margin-left: auto;">
+    <img src="/Images/rna1.jpg"/>   
+    <figcaption style="display:inline-block;>Loops</figcaption>
   </figure>
 
-  <figure style="text-align: center; display:inline-block;">
-    <img src="/Images/rna4.jpg" width="45%"/>   
-    <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Double-stranded regionn</figcaption>
+  <figure width="45%" style="text-align: center; display:inline-block; margin-right: auto; margin-left: auto;">
+    <img src="/Images/rna4.jpg"/>   
+    <figcaption style="display:inline-block;>Double-stranded region</figcaption>
   </figure>
 </p>
 
