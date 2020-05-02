@@ -7,12 +7,32 @@ At a chemical level, RNA is a continuous chain of 4 alternating blocks: adenine 
 
 Researchers are trying to employ the geometry of these versatile molecules and develop short RNAs which can bind to particular targets inside the body. These so-called aptamers could be used to specifically deliver drugs only to affected tissues and thus decrease the adverse effects of treatments such as chemotherapy.
 
-  <figure style="display: inline-block; vertical-align: top; margin: 0;">
-    <img style="display: inline-block;" width="10%" src="/Images/rna1.jpg" />
-  </figure>
-   <figure style="display: inline-block; vertical-align: top; margin: 0;">
-    <img style="display: inline-block;" width="10%" src="/Images/rna4.jpg" />
-  </figure>
+ <div>
+<figure  id="crackers1">
+  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR8q3x_pFvnepIe7b7C_YeHbbHJe4n1KXKPIgldpccJY1hw3Z8z" alt="missing" height="100%" width="100%" />
+  <span>Peppermint Thins</span>
+  </figure >
+   <figure  id="crackers2">
+  <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTdNkStSLeNk_3eAN6MV7asaOQapylITCIxs1JDOEblIc8V4eqy" alt="missing" height="100%" width="100%" />
+  <span>Ritz Crackers</span>
+   </figure >
+<div style="clear:both;"></div>
+</div>
+
+#crackers1 {
+    float:left;
+    width:48%;
+    margin:0;
+    padding:0;
+    vertical-align: top;
+}
+#crackers2 {
+    float:right;
+    margin:0;
+    padding:0;
+    width:48%;
+    vertical-align: top;
+}
 
 ### The folding problem
 Given a sample of all possible RNA aptamers made up of 30 nucleotides, how many folding patterns do we expect to find? To simply things, we are only looking at the shape of the molecule, so if two different sequences of nucleotides give the same type of folding, they are counted together. We’ll also keep in mind that the RNA backbone doesn’t cross itself during folding, so we can model it as a collection of points joined by non-intersecting edges.
