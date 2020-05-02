@@ -14,7 +14,7 @@ Researchers are trying to employ the geometry of these versatile molecules and d
     padding:0;
     vertical-align: top;">
   <img src="/Images/rna1.jpg" height="100%" width="100%" />
-  <span>RNA with loops</span>
+  <span style="text-allign:center;">RNA structure with nested loops</span>
   </figure >
    <figure  style="float:right;
     margin:0;
@@ -22,7 +22,7 @@ Researchers are trying to employ the geometry of these versatile molecules and d
     width:48%;
     vertical-align: top;">
   <img src="/Images/rna4.jpg" height="100%" width="100%" />
-  <span>RNA with double-stranded region</span>
+  <span style="text-allign:center;">RNA molecule with a double-stranded region</span>
    </figure >
 <div style="clear:both;"></div>
 </div>
