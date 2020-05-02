@@ -83,8 +83,13 @@ Since we are searching for paths of minimum length between the two corners, the 
 Now we can change 5 of those norths into easts. We have 10 choices for picking the first north to convert. And 9 for the second, 8 for the third, 7 for the fourth and 6 for the fifth. Overall, there are $$10 \times 9 \times 8 \times 7 \times 6$$ paths we can construct using this method. However, we counted some paths multiple times – converting positions 1, 5, 7, 8 and 10  generates the same sequence of steps as converting postions 5, 1, 10, 7, 8. There are $$5 \times 4 \times 3 \times 2 \times 1$$ ways to rearrange the order in which we make our picks, so the final number of valid paths is:
 
 <p style="text-align: center; display:block;">
-  $$(10 \times 9 \times 8 \times 7 \times 6) / (5 \times 4\times 3 \times 2 \times 1)$$
+  $$(10 \times 9 \times 8 \times 7 \times 6) / (5 \times 4\times 3 \times 2 \times 1) = 42$$
 </p>
+
+<figure style="text-align: center; display:block;">
+  <img src="/Images/rabbit_animation.gif" width="75%" />   
+  <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Simulation of all the possible paths</figcaption>
+</figure>
 
 
 
