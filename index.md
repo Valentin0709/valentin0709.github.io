@@ -113,7 +113,10 @@ If we invert all the easts to norths and all norths to easts in the first sectio
   <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Simulation of all the possible paths</figcaption>
 </figure>
 
-Bringing everything together, the number of valid paths which Descartes asked about is $$\frac{10!}{5! \times !5} - \frac{10!}{4! \times 6!} = 42$$. We can generalize this result for a square garden of arbitrary dimensions n x n and get $\frac{2n!}{n! \times n!} - \frac{2n!}{(n-1)! \times (n+1)!} = 
+Bringing everything together, the number of valid paths which Descartes asked about is $$\frac{10!}{5! \times !5} - \frac{10!}{4! \times 6!} = 42$$. We can generalize this result for a square garden of arbitrary dimensions n x n and get $$\frac{2n!}{n! \times n!} - \frac{2n!}{(n-1)! \times (n+1)!} $$. These are the Catalan numbers!
+    
+<p style="text-align: center; display:block;">
+    $$ C_n = \frac{2n!}{n! \times n!} - \frac{2n!}{(n-1)! \times (n+1)!} = 
     \begin{pmatrix}
     2n  \\
     n \\
@@ -121,7 +124,8 @@ Bringing everything together, the number of valid paths which Descartes asked ab
     \begin{pmatrix}
     2n  \\
     n - 1 \\
-    \end{pmatrix} $. These are the Catalan numbers!
+    \end{pmatrix} $$
+ </p>
     
 <figure style="text-align: center; display:block;">
   <img src="/Images/rabbit_animation.gif" width="75%" />   
