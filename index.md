@@ -150,7 +150,7 @@ You may have figured this by now, but the instruction which the rabbit had to fo
 
 This means that we can use the Catalan numbers to solve our folding problem! If we know that 10 positions on the RNA strand are involved in base pairing, then there are $$C_5$$ ways to combine them. However, between these positions there are 20 filler nucleotides. To calculate the total number of folding patterns, we can imagine that initially all 30 bases are filler nucleotides and  pick 10 that are involved in hydrogen bonding. As proved earlier, this is equal to $$\begin{pmatrix} 30  \\ 10 \\ \end{pmatrix} $$. Overall, this gives the total number of folds with 5 base pairs as $$\begin{pmatrix} 30  \\ 10 \\ \end{pmatrix} \times C_5$$ . To generalize, for a molecule with n bonds, there are $$\begin{pmatrix} 30  \\ 2n \\ \end{pmatrix} \times C_n$$ patterns. Doing the summation over all values of n we obtain the final answer
 
-$$\sum_{i=1}^15 \begin{pmatrix} 30  \\ 2n \\ \end{pmatrix} \times C_n = 1697385471210$$
+$$\sum_{i=1}^{15} \begin{pmatrix} 30  \\ 2i \\ \end{pmatrix} \times C_i = 1697385471210$$
 
 That’s a big number isn’t it?
 
