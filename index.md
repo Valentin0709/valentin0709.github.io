@@ -154,7 +154,7 @@ This formula describes a special series of number called the Catalan numbers!
 
 You might have figured this by now, but the restrictions the rabbit followed when counting the number of paths parallel the rules we described earlier for base pairing: the number of E steps is equal to the number of N steps and, at any point, the number of E steps must be greater or equal to the number of N steps so we don’t end up on the other side of the fence.
 
-This means that we can use the Catalan numbers to solve the folding problem! If we know that 10 positions on the RNA strand are involved in hydrogen bonding, then there are $$C_5$$ ways to combine them. However, between these positions there are 20 filler nucleotides. To calculate the total number of folding patterns, we can assume that initially all 30 bases are filler nucleotides and then pick any 10 of them which are involved base pairing. As proved earlier, these is equal to $$\begin{pmatrix} 30  \\ 10 \\ \end{pmatrix} $$. 
+This means that we can use the Catalan numbers to solve the folding problem! If we know that 10 positions on the RNA strand are involved in hydrogen bonding, then there are $$C_5$$ ways to combine them. However, between these positions there are 20 filler nucleotides. To calculate the total number of folding patterns, we can assume that initially all 30 bases are filler nucleotides and then pick any 10 of them which are involved base pairing. As proved earlier, this is equal to $$\begin{pmatrix} 30  \\ 10 \\ \end{pmatrix} $$. 
 
 Overall, the total number of folds with 5 base pairs is $$\begin{pmatrix} 30  \\ 10 \\ \end{pmatrix} \times C_5$$ . 
 
