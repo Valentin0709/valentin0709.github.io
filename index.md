@@ -41,9 +41,9 @@ Let’s begin by “reading” an RNA strand from one end to another. As we enco
 * heads – the first nucleotide we reach when we encounter a new base pair
 * tails – the complementary nucleotide to one of the heads met earlier
 
-Of course, this relative to the way we look at the molecule, if we were to read the strand from the opposite end, all heads and tails would switch places. 
+Of course, this is relative to the way we look at the molecule, if we were to read the strand from the opposite end, all heads and tails would switch places. 
 
-From this observation we can deduce the following two rules which are fulfilled for any valid folding pattern: (1) the sequence contains an equal number of heads and tail and (2) at any point, the number of heads is equal or grater than the number of tails, i.e. we can’t reach the tail of a base pair before its head
+From this observation we can deduce the following two rules which are fulfilled for any valid folding pattern: (1) the sequence contains an equal number of heads and tail and (2) at any point, the number of heads is equal or grater than the number of tails since we can’t reach the tail of a base pair before its head.
 
 Does this sound familiar? These are the same rules we use for matching parentheses in an algebraic equation: the number of open parentheses must be equal to the number of close parentheses and you can’t close more parentheses that you’ve already opened. 
 
@@ -55,13 +55,15 @@ So, if we know that our RNA molecule contains 5 base pairs, then then number of 
 
 <figure style="text-align: center; display:block;">
   <img src="/Images/rna_animation.gif" width="75%" />   
-  <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Converting the RNA strand into an equivalent paranthesis sequence</figcaption>
+  <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Converting the RNA strand into an equivalent sequence of parantheses</figcaption>
 </figure>
 
 <figure style="text-align: center; display:block;">
   <img src="/Images/rna_diagram.png" width="100%"/>   
   <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Nucleotide pairs on an unfolded RNA molecule</figcaption>
 </figure>
+
+Before going further with this problem, let's have a look at a related puzzle!
 
 ### The hungry rabbit
 
@@ -144,7 +146,7 @@ This formula describes a special series of number called the Catalan numbers!
   <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Simulation of all the possible paths</figcaption>
 </figure>
 
-### Wrapping things up
+### Folding things up
 
 You might have figured this by now, but the restrictions the rabbit followed when counting the number of paths parallel the rules we described earlier for base pairing: the number of E steps is equal to the number of N steps and, at any point, the number of E steps must be greater or equal to the number of N steps so we don’t end up on the other side of the fence.
 
@@ -152,7 +154,9 @@ This means that we can use the Catalan numbers to solve the folding problem! If 
 
 Overall, the total number of folds with 5 base pairs is $$\begin{pmatrix} 30  \\ 10 \\ \end{pmatrix} \times C_5$$ . 
 
-To generalize, for a molecule with n bonds, there are $$\begin{pmatrix} 30  \\ 2n \\ \end{pmatrix} \times C_n$$ folding patterns. Doing the summation over all values of n we obtain the final answer
+To generalize, for a molecule with n bonds, there are $$\begin{pmatrix} 30  \\ 2n \\ \end{pmatrix} \times C_n$$ folding patterns. 
+
+Doing the summation over all values of n we obtain the final answer
 
 $$\sum_{i=1}^{15} \begin{pmatrix} 30  \\ 2i \\ \end{pmatrix} \times C_i = 1697385471210$$
 
