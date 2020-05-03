@@ -90,7 +90,7 @@ Now we can change 5 of those norths into easts. We have 10 choices for picking t
 However, we counted some paths multiple times – converting positions 1, 5, 7, 8 and 10  generates the same sequence of steps as converting postions 5, 1, 10, 7, 8. There are $5 \times 4 \times 3 \times 2 \times 1$ ways to rearrange the order in which we make our picks, so the final number of valid paths is:
 
 <p style="text-align: center; display:block;">
-  $$(10 \times 9 \times 8 \times 7 \times 6) / (5 \times 4\times 3 \times 2 \times 1) = 42$$
+  $$(10 \times 9 \times 8 \times 7 \times 6) / (5 \times 4\times 3 \times 2 \times 1) = 252$$
 </p>
 
 Using the factorial notations, $a! = 1 \times 2 \times 3 \times \; … \; \times a$, we can rewrite this a $$\frac{10!}{5! \times !5}$$. These are formally referred to as 5-combinations of 10 or $$
@@ -104,9 +104,17 @@ Using the factorial notations, $a! = 1 \times 2 \times 3 \times \; … \; \times
   <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Simulation of all the possible paths</figcaption>
 </figure>
 
-What about the number of bad paths? We know that such invalid paths cross the diagonal fence. The diagonal contains all the points which can be reached by walking an equal number of steps to the east and to the north. Therefore, the first point of a path which goes over the diagonal is made up of x east steps and $x + 1$ north steps. From that point, the path contains another $5 - x$ east steps and $5 \; – (x + 1)$ north steps in order to reach (5, 5). If we invert all the easts to norths and all norths to easts in the first section of the path, we get a path which contains $x + 5 \; – (x + 1) = 4$ north steps and $x + 1 + 5 - x = 6$ east steps. Therefore, we can conclude that using this method any bad path from (0, 0) to (5, 5) corresponds to a path between (0, 0) and (6, 4). Using the proof from above, the number of such paths is $$\frac{10!}{4! \times 6!}$$.
+What about the number of bad paths? We know that such invalid paths cross the diagonal fence. The diagonal contains all the points which can be reached by walking an equal number of steps to the east and to the north. Therefore, the first point of a path which goes over the diagonal is made up of x east steps and $x + 1$ north steps. From that point, the path contains another $5 - x$ east steps and $5 \; – (x + 1)$ north steps in order to reach (5, 5). If we invert all the easts to norths and all norths to easts in the first section of the path, we get a path which contains $x + 5 \; – (x + 1) = 4$ north steps and $x + 1 + 5 - x = 6$ east steps. Therefore, we can conclude that using this method any bad path from (0, 0) to (5, 5) corresponds to a path between (0, 0) and (6, 4). Using the proof from above, the number of such paths is $$\frac{10!}{4! \times 6!} = 210$$.
 
-Bringing everything together, the number of valid paths which Descartes asked about is $$\frac{10!}{5! \times !5} - \frac{10!}{4! \times 6!} $$. We can generalize this result for a square garden of arbitrary dimensions n x n and get $$\frac{2n!}{n! \times n!} - \frac{2n!}{(n-1)! \times (n+1)!} $$. These are the Catalan numbers!
+Bringing everything together, the number of valid paths which Descartes asked about is $$\frac{10!}{5! \times !5} - \frac{10!}{4! \times 6!} = 42$$. We can generalize this result for a square garden of arbitrary dimensions n x n and get $$\frac{2n!}{n! \times n!} - \frac{2n!}{(n-1)! \times (n+1)!} = 
+    \begin{pmatrix}
+    2n  \\
+    n \\
+    \end{pmatrix} - 
+    \begin{pmatrix}
+    2n  \\
+    n - 1 \\
+    \end{pmatrix} $$. These are the Catalan numbers!
 
 
 
