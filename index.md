@@ -112,7 +112,7 @@ What about the number of bad paths? We know that such invalid paths cross the di
   <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">The path is broken into two after the first point which crosses the diagonal</figcaption>
 </figure>
 
-If we invert all the Es to Ns and all Ns into Es in the first section of the path, we get a path which contains $x + 5 \; – (x + 1) = 4 \; N \; steps$ and $x + 1 + 5 - x = 6 \; E \; steps$. Therefore, we can conclude that using this method any bad path from (0, 0) to (5, 5) can be transformed to a path between (0, 0) and (6, 4). Using the proof from above, the number of such paths is $$\frac{10!}{4! \times 6!} = 210$$.
+If we invert all the Es to Ns and all Ns into Es in the first section of the path, we get a path which contains $x + 5 \; – (x + 1) = 4 \; N \; steps$ and $x + 1 + 5 - x = 6 \; E \; steps$. Therefore, we can conclude that using this method any bad path from (0, 0) to (5, 5) can be transformed into a path between (0, 0) and (6, 4). Using the proof from above, the number of such paths is $$\frac{10!}{4! \times 6!} = 210$$.
 
 <figure style="text-align: center; display:block;">
   <img src="/Images/rabbit2.jpg" width="75%" />   
