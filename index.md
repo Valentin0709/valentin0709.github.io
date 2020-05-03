@@ -156,7 +156,7 @@ To generalize, for a molecule with n bonds, there are $$\begin{pmatrix} 30  \\ 2
 
 $$\sum_{i=1}^{15} \begin{pmatrix} 30  \\ 2i \\ \end{pmatrix} \times C_i = 1697385471210$$
 
-That’s a big number isn’t it?
+That’s a big number isn’t it? Considering that the aptamer tehnology relies on identifying an RNA fold with a complementary shape to our antigen of interest, this calculation higlights that the odds to find one are pretty big.
 
 
 
