@@ -106,7 +106,7 @@ Using the factorial notations, $a! = 1 \times 2 \times 3 \times \; … \; \times
 
 What about the number of bad paths? We know that such invalid paths cross the diagonal fence. The diagonal contains all the points which can be reached by walking an equal number of steps to the east and to the north. Therefore, the first point of a path which goes over the diagonal is made up of x east steps and $x + 1$ north steps. From that point, the path contains another $5 - x$ east steps and $5 \; – (x + 1)$ north steps in order to reach (5, 5). If we invert all the easts to norths and all norths to easts in the first section of the path, we get a path which contains $x + 5 \; – (x + 1) = 4$ north steps and $x + 1 + 5 - x = 6$ east steps. Therefore, we can conclude that using this method any bad path from (0, 0) to (5, 5) corresponds to a path between (0, 0) and (6, 4). Using the proof from above, the number of such paths is $$\frac{10!}{4! \times 6!} = 210$$.
 
-Bringing everything together, the number of valid paths which Descartes asked about is $$\frac{10!}{5! \times !5} - \frac{10!}{4! \times 6!} = 42$$. We can generalize this result for a square garden of arbitrary dimensions n x n and get $$\frac{2n!}{n! \times n!} - \frac{2n!}{(n-1)! \times (n+1)!} = 
+Bringing everything together, the number of valid paths which Descartes asked about is $$\frac{10!}{5! \times !5} - \frac{10!}{4! \times 6!} = 42$$. We can generalize this result for a square garden of arbitrary dimensions n x n and get $\frac{2n!}{n! \times n!} - \frac{2n!}{(n-1)! \times (n+1)!} = 
     \begin{pmatrix}
     2n  \\
     n \\
@@ -114,7 +114,7 @@ Bringing everything together, the number of valid paths which Descartes asked ab
     \begin{pmatrix}
     2n  \\
     n - 1 \\
-    \end{pmatrix} $$. These are the Catalan numbers!
+    \end{pmatrix} $. These are the Catalan numbers!
 
 
 
