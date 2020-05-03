@@ -62,12 +62,12 @@ So, if we know that our RNA molecule contains 5 base pairs, then then number of 
   <img src="/Images/rna_diagram.png" width="100%"/>   
   <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Nucleotide pairs on an unfolded RNA molecule</figcaption>
 </figure>
-
+<br>
 Before going further with this problem, let's have a look at a related puzzle!
 
 ### The hungry rabbit
 
-René Descartes has divided his garden into 5 x 5 equal grass patches and built a wooden fence which runs across the diagonal, from south-west to north-east. As he is a coordinate systems enthusiast, Descartes assigned two values to each corner based on their horizontal and vertical distance from the lower-left corner which has the coordinates (0, 0). In the upper-right corner of the garden (5, 5), Descartes has cultivated carrots. A hungry rabbit which enters the garden at point (0, 0) asks the mathematician if he can share any of his delicious carrots. Descartes tells the rabbit that he can take one if he calculates the number of paths of minimum length he can take from (0, 0) to (5, 5), walking only along the edges of the grass patches and without crossing the fence.
+René Descartes has divided his garden into 5 x 5 equal grass patches and built a wooden fence which runs across the diagonal, from south-west to north-east. As a ture coordinate system enthusiast, Descartes assigned two values to each corner based on its horizontal and vertical distance from the lower-left corner which has the coordinates (0, 0). In the upper-right corner of the garden (5, 5), Descartes has cultivated a couple of carrots that catch the attention of a hungry rabbit which enters the garden at the point (0, 0) wanting to help himself with a snack. Descartes tells the rabbit that he can take one if he calculates the number of paths of minimum length he can take from (0, 0) to (5, 5), without crossing the fence and walking only along the edges of the grass patches.
 
 <figure style="text-align: center; display:block;">
   <img src="/Images/rabbit.jpg" width="75%" />   
@@ -76,17 +76,21 @@ René Descartes has divided his garden into 5 x 5 equal grass patches and built 
 
 One way to approach this problem is to work out first the total numbers of possible walks from (0, 0) to (5, 5) and then subtract the number of bad paths which cross the diagonal at least once – this leaves us with the answer we are looking for!
 
-Since we are searching for paths of minimum length between the two corners, the first comment we can make is that such paths must have length 10 and are made up of 5 steps to east and 5 steps to north. Our first task is to calculate in how many unique ways we can arrange a sequence of these 10 alternating moves. To solve this, imagine that we begin with a sequence consisting of 10 steps to north.
-
 <p style="text-align: center; display:block;">
-  $$north \; north \; north \; north \; north \; north \; north \; north \; north \; north$$
+  $$good \; paths = total \; paths - bad \; paths$$
 </p>
 
-Now we can change 5 of those norths into easts. We have 10 choices for picking the first north to convert. And 9 for the second, 8 for the third, 7 for the fourth and 6 for the fifth. Overall, there are $$10 \times 9 \times 8 \times 7 \times 6$$ paths we can construct using this method. 
+Since we are searching for paths of minimum length between the two corners, the first comment we can make is that such paths must have length 10 and are made up of 5 steps eastward (E) and 5 steps northward (N). Our first task is to calculate in how many unique ways we can arrange a sequence of these 10 alternating moves. To solve this, imagine that we begin with a sequence consisting of 10 steps to the north.
 
 <p style="text-align: center; display:block;">
- $$swapping \; the \; norths \; on \; positions \; 1, 5, 7, 8, and \; 10 \; for \; easts \; results \; in \; the \; following \; path \\
-  east \; north \; north \; north \; east \; north \; east \; east \; north \; east $$
+  $$N \; N \; N \; N \; N \; N \; N \; N \; N \; N$$
+</p>
+
+Now we can change 5 of those Ns into Es. We have 10 choices for picking the first N to convert. And 9 for the second, 8 for the third, 7 for the fourth and 6 for the fifth. Overall, there are $$10 \times 9 \times 8 \times 7 \times 6$$ paths we can construct using this method. 
+
+<p style="text-align: center; display:block;">
+ swapping the Ns on positions 1, 5, 7, 8, and 10 for Es results in the following path
+ $$ E \; N \; N \; N \; E \; N \; E \; E \; N \; E $$
 </p>
 
 However, we counted some paths multiple times – converting positions 1, 5, 7, 8 and 10  generates the same sequence of steps as converting postions 5, 1, 10, 7, 8. There are $5 \times 4 \times 3 \times 2 \times 1$ ways to rearrange the order in which we make our picks, so the final number of valid paths is:
@@ -101,14 +105,14 @@ Using the factorial notations, $a! = 1 \times 2 \times 3 \times \; … \; \times
     5 \\
     \end{pmatrix}$$
 
-What about the number of bad paths? We know that such invalid paths cross the diagonal fence. The diagonal contains all the points which can be reached by walking an equal number of steps to the east and to the north. Therefore, the first point of a path which goes over the diagonal is made up of x east steps and $x + 1$ north steps. From that point, the path contains another $5 - x$ east steps and $5 \; – (x + 1)$ north steps in order to reach (5, 5). 
+What about the number of bad paths? We know that such invalid paths cross the diagonal fence. The diagonal contains all the points which can be reached by walking an equal number of steps to the east and to the north. Therefore, the first point of a path which goes over the diagonal is made up of x E steps and $x + 1$ N steps. From that point, the path contains another $5 - x$ E steps and $5 \; – (x + 1)$ N steps in order to reach (5, 5). 
 
 <figure style="text-align: center; display:block;">
   <img src="/Images/rabbit1.jpg" width="75%" />   
   <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">The path is broken into two after the first point which crosses the diagonal</figcaption>
 </figure>
 
-If we invert all the easts to norths and all norths to easts in the first section of the path, we get a path which contains $x + 5 \; – (x + 1) = 4$ north steps and $x + 1 + 5 - x = 6$ east steps. Therefore, we can conclude that using this method any bad path from (0, 0) to (5, 5) corresponds to a path between (0, 0) and (6, 4). Using the proof from above, the number of such paths is $$\frac{10!}{4! \times 6!} = 210$$.
+If we invert all the Es to Ns and all Ns into Es in the first section of the path, we get a path which contains $x + 5 \; – (x + 1) = 4$ N steps and $x + 1 + 5 - x = 6$ E steps. Therefore, we can conclude that using this method any bad path from (0, 0) to (5, 5) corresponds to a path between (0, 0) and (6, 4). Using the proof from above, the number of such paths is $$\frac{10!}{4! \times 6!} = 210$$.
 
 <figure style="text-align: center; display:block;">
   <img src="/Images/rabbit2.jpg" width="75%" />   
@@ -121,7 +125,7 @@ Bringing everything together, the number of valid paths which Descartes asked ab
  $$\frac{10!}{5! \times !5} - \frac{10!}{4! \times 6!} = 42$$
  </p>
  
- We can generalize this result for a square garden of arbitrary dimensions n x n and get 
+ We can generalize this result for a square garden of arbitrary dimensions n x n 
 
 <p style="text-align: center; display:block;">
    $$\frac{2n!}{n! \times n!} - \frac{2n!}{(n-1)! \times (n+1)!} $$
