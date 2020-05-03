@@ -45,13 +45,13 @@ Of course, this is relative to the way we look at the molecule, if we were to re
 
 From this observation we can deduce the following two rules which are fulfilled for any valid folding pattern: (1) the sequence contains an equal number of heads and tail and (2) at any point, the number of heads is equal or grater than the number of tails since we can’t reach the tail of a base pair before its head.
 
-Does this sound familiar? These are the same rules we use for matching parentheses in an algebraic equation: the number of open parentheses must be equal to the number of close parentheses and you can’t close more parentheses that you’ve already opened. 
+Does this sound familiar? These are the same rules we use for matching parenthesis in an algebraic equation: the number of open parenthesis must be equal to the number of close parenthesis and you can’t close more parenthesis that you’ve already opened. 
 
 <p style="text-align: center; display:block;">
   $$((maths + maths) \times (more \; maths)) ^ 2 = result $$
 </p>
 
-So, if we know that our RNA molecule contains 5 base pairs, then then number of ways in which these bonds can exist relative to one another is the same as the number of valid parentheses sequences made up of 5 parentheses pairs.
+So, if we know that our RNA molecule contains 5 base pairs, then then number of ways in which these bonds can exist relative to one another is the same as the number of valid parenthesis sequences made up of 5 parenthesis pairs.
 
 <figure style="text-align: center; display:block;">
   <img src="/Images/rna_animation.gif" width="75%" />   
@@ -67,7 +67,7 @@ Before going further with this problem, let's have a look at a related puzzle!
 
 ### The hungry rabbit
 
-René Descartes has divided his garden into 5 x 5 equal grass patches and built a wooden fence which runs across the diagonal, from south-west to north-east. As a ture coordinate system enthusiast, Descartes assigned two values to each corner based on its horizontal and vertical distance from the lower-left corner which has the coordinates (0, 0). In the upper-right corner of the garden (5, 5), Descartes has cultivated a couple of carrots that catch the attention of a hungry rabbit which enters the garden at the point (0, 0) wanting to help himself with a snack. Descartes tells the rabbit that he can take one if he calculates the number of paths of minimum length he can take from (0, 0) to (5, 5), without crossing the fence and walking only along the edges of the grass patches.
+René Descartes has divided his garden into 5 x 5 equal grass patches and built a wooden fence which runs across the diagonal, from south-west to north-east. As a true coordinate system enthusiast, Descartes assigned two values to each corner based on its horizontal and vertical distance from the lower-left corner which has the coordinates (0, 0). In the upper-right corner of the garden (5, 5), Descartes has cultivated a couple of carrots that catch the attention of a hungry rabbit which enters the garden at the point (0, 0) wanting to help himself with a snack. Descartes tells the rabbit that he can take one if he calculates the number of paths of minimum length he can take from (0, 0) to (5, 5), without crossing the fence and walking only along the edges of the grass patches.
 
 <figure style="text-align: center; display:block;">
   <img src="/Images/rabbit.jpg" width="75%" />   
