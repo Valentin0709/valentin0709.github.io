@@ -171,7 +171,7 @@ That’s a big number isn’t it? Considering that the aptamer tehnology relies 
 
 NB This article was wrote as part of an internship application.
 
-The programs I made for generating the animations cand be found here:
+The programs I made for generating the animations can be found here:
 
 
 
