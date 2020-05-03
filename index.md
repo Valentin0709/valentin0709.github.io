@@ -74,7 +74,7 @@ René Descartes has divided his garden into 5 x 5 equal grass patches and built 
   <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Bird's-eye view of the garden</figcaption>
 </figure>
 
-One way to approach this problem is to work out first the total numbers of possible walks from (0, 0) to (5, 5) and then subtract the number of bad paths which cross the diagonal at least once – this leaves us with the answer we are looking for!
+One way to approach this problem is to first work out the total numbers of possible walks from (0, 0) to (5, 5) and then subtract the number of bad paths which cross the diagonal at least once – this leaves us with the answer we are looking for!
 
 <p style="text-align: center; display:block;">
   $$good \; paths = total \; paths - bad \; paths$$
