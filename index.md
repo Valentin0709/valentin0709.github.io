@@ -143,6 +143,8 @@ This formula describes a special series of number called the Catalan numbers!
     2n  \\
     n - 1 \\
     \end{pmatrix} $$
+ 
+   $$C_1 = 1, C_2 = 2, C_3 = 5, C_4= 14, C_5 = 52, C_6 = 132, C_7 = 429, ... $$
  </p>
     
 <figure style="text-align: center; display:block;">
