@@ -103,14 +103,14 @@ What about the number of bad paths? We know that such invalid paths cross the di
 
 <figure style="text-align: center; display:block;">
   <img src="/Images/rabbit1.jpg" width="75%" />   
-  <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Simulation of all the possible paths</figcaption>
+  <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">The path is broken into two after the first point which crosses the diagonal</figcaption>
 </figure>
 
 If we invert all the easts to norths and all norths to easts in the first section of the path, we get a path which contains $x + 5 \; – (x + 1) = 4$ north steps and $x + 1 + 5 - x = 6$ east steps. Therefore, we can conclude that using this method any bad path from (0, 0) to (5, 5) corresponds to a path between (0, 0) and (6, 4). Using the proof from above, the number of such paths is $$\frac{10!}{4! \times 6!} = 210$$.
 
 <figure style="text-align: center; display:block;">
   <img src="/Images/rabbit2.jpg" width="75%" />   
-  <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Simulation of all the possible paths</figcaption>
+  <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Bad path from (0, 0) to (5, 5) mapped on to a path from (0, 0) to (6, 4)</figcaption>
 </figure>
 
 Bringing everything together, the number of valid paths which Descartes asked about is $$\frac{10!}{5! \times !5} - \frac{10!}{4! \times 6!} = 42$$. We can generalize this result for a square garden of arbitrary dimensions n x n and get $$\frac{2n!}{n! \times n!} - \frac{2n!}{(n-1)! \times (n+1)!} $$. These are the Catalan numbers!
