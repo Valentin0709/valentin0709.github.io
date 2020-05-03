@@ -99,7 +99,7 @@ However, we counted some paths multiple times – converting positions 1, 5, 7, 
   $$(10 \times 9 \times 8 \times 7 \times 6) / (5 \times 4\times 3 \times 2 \times 1) = 252$$
 </p>
 
-Using the factorial notations, $a! = 1 \times 2 \times 3 \times \; … \; \times a$, we can rewrite this a $$\frac{10!}{5! \times !5}$$. These are formally referred to as 5-combinations of 10 or $$
+Using the factorial notations, $a! = 1 \times 2 \times 3 \times \; … \; \times a$, we can rewrite this as $$\frac{10!}{5! \times !5}$$. These are formally referred to as 5-combinations of 10 or $$
     \begin{pmatrix}
     10  \\
     5 \\
