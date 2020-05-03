@@ -113,7 +113,19 @@ If we invert all the easts to norths and all norths to easts in the first sectio
   <figcaption style="display:inline-block; margin-right: auto; margin-left: auto;">Bad path from (0, 0) to (5, 5) mapped on to a path from (0, 0) to (6, 4)</figcaption>
 </figure>
 
-Bringing everything together, the number of valid paths which Descartes asked about is $$\frac{10!}{5! \times !5} - \frac{10!}{4! \times 6!} = 42$$. We can generalize this result for a square garden of arbitrary dimensions n x n and get $$\frac{2n!}{n! \times n!} - \frac{2n!}{(n-1)! \times (n+1)!} $$. These are the Catalan numbers!
+Bringing everything together, the number of valid paths which Descartes asked about is 
+
+<p style="text-align: center; display:block;">
+ $$\frac{10!}{5! \times !5} - \frac{10!}{4! \times 6!} = 42$$
+ </p>
+ 
+ We can generalize this result for a square garden of arbitrary dimensions n x n and get 
+
+<p style="text-align: center; display:block;">
+   $$\frac{2n!}{n! \times n!} - \frac{2n!}{(n-1)! \times (n+1)!} $$
+</p>
+
+This formula describes a special series of number called the Catalan numbers!
     
 <p style="text-align: center; display:block;">
     $$ C_n = \frac{2n!}{n! \times n!} - \frac{2n!}{(n-1)! \times (n+1)!} = 
