@@ -165,13 +165,13 @@ Doing the summation over all values of n we obtain the final answer
 $$\sum_{i=1}^{15} \begin{pmatrix} 30  \\ 2i \\ \end{pmatrix} \times C_i = 1697385471210$$
 
 That’s a big number isn’t it? Considering that the aptamer tehnology relies on identifying an RNA fold with a complementary shape to our antigen of interest, this calculation higlights that the odds to find one are pretty big.
-
+<br><br><br>
 ----
 ****
 
-NB This article was wrote as part of an internship application.
+This article was wrote as part of an internship application.
 
-The programs I made for generating the animations can be found here:
+The program I made for generating the animations can be found here:
 
 
 
