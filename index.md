@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-Since a certain RNA related topic has gone viral in last couple of months, let’s take a step back and see how this strange molecule could in fact become a powerful tool for treating disease while exploring the mathematics behind its structure. Who does not like some recreational maths during quarantine anyways?
+Since a certain RNA related topic has gone viral in last couple of months, let’s take a step back and see how this strange molecule could actually become a powerful tool for treating disease while exploring the mathematics behind its structure. Who does not like some recreational maths during quarantine anyways?
 ### What is RNA and what can we use it for?
 At a chemical level, RNA is a continuous chain of 4 alternating blocks: adenine (A), uracil (U), guanine (G) and cytosine (C). They are conventionally called nucleotides or bases. Despite what you may think, RNA is not limited to encoding the genetic information of nasty bugs, in fact it can carry numerous tasks inside the cell by folding into complex three-dimensional structures. For example, protein synthesis is directed by different types of RNA! The folding occurs mainly due the formation of hydrogen bonds between the nucleotides – or, simply put, adenine and uracil like to pair up with one another whereas cytosine is complementary to guanine. This results in the RNA bending over and attaching to itself at different points, creating loops and double-stranded regions.
 
