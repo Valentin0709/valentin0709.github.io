@@ -32,7 +32,7 @@ Researchers are trying to employ the geometry of these versatile molecules and d
 </div>
 
 ### The folding problem
-Given a sample of all possible RNA aptamers made up of 30 nucleotides, how many folding patterns do we expect to find? To simply things, we are only looking at the shape of the molecule, so if two different sequences of nucleotides give the same type of folding, they are counted together. We’ll also keep in mind that the RNA backbone doesn’t cross itself during folding, so we can model it as a collection of points joined by non-intersecting edges.
+Given a sample of all possible RNA aptamers made up of 30 nucleotides, how many folding patterns can we expect to find? To simply things, we are only looking at the shape of the molecule, so if two different sequences of nucleotides give the same type of folding, they are counted together. We’ll also keep in mind that the RNA backbone doesn’t cross itself during folding, so we can model it as a collection of points joined by non-intersecting edges.
 
 ### Matching parentheses 
 Let’s begin by “reading” an RNA strand from one end to another. As we encounter a couple of hydrogen bonds along the way, we see that the nucleotides can be classified into 3 categories:
