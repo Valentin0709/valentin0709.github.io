@@ -173,7 +173,7 @@ That’s a big number isn’t it? Considering that the aptamer tehnology relies 
 
 This article was wrote as part of an internship application.
 
-The program I made for generating the animations can be found here: [https://github.com/Valentin0709/RNA_Animations]
+The program I made for generating the animations can be found here: (link)[https://github.com/Valentin0709/RNA_Animations]
 
 
 
